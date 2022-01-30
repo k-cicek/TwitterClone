@@ -1,10 +1,16 @@
 import React from "react";
+import Home from "./components/Home";
+import Sidebar from "./components/Sidebar";
+import PostModal from "./components/PostModal";
+import Widgets from "./components/Widgets";
 
 function App() {
   return (
-    <div>
-      <h1 className="bg-primary-base ">hiii</h1>
-    </div>
+    <Home>
+      <Sidebar />
+      <PostModal />
+      <Widgets />
+    </Home>
   );
 }
 
