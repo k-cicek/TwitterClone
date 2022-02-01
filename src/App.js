@@ -1,16 +1,16 @@
 import React from "react";
-import Home from "./components/Home";
-import Sidebar from "./components/Sidebar";
-import PostModal from "./components/PostModal";
-import Widgets from "./components/Widgets";
+import Main from "./containers/Main";
+import Sidebar from "./containers/Sidebar";
+import PostModal from "./containers/PostModal";
+import Widgets from "./containers/Widgets";
 
 function App() {
   return (
-    <Home>
+    <Main>
       <Sidebar />
       <PostModal />
       <Widgets />
-    </Home>
+    </Main>
   );
 }
 

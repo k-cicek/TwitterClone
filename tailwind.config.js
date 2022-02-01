@@ -7,11 +7,11 @@ module.exports = {
         primary: {
           base: "hsl(203, 89%, 53%)",
           dark: "hsl(203, 89%, 46%)",
-          light:"hsl(203, 89%, 96%)",
+          light:"hsl(208, 91%, 96%)",
         }, 
         gray: {
           dark:"#657786",
-          light:"#AAB8C2",
+          light:"#e7e7e8",
           extraLight:"#E1E8ED",
           lightest:"#F5F8FA",
         },
