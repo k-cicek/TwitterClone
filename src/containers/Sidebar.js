@@ -54,7 +54,7 @@ function Sidebar() {
     setActive(name);
   };
   return (
-    <div className="flex flex-col justify-between w-64 px-2">
+    <div className="h-screen sticky top-0 flex flex-col justify-between w-64 px-2">
       <div>
         <div className="mt-1 mb-4 ml-1 flex items-center justify-center w-12 h-12 rounded-full hover:bg-primary-light transform transition-colors duration-200">
           <img src={twitterLogo} alt="Twitter Logo" className="w-9 h-9" />
