@@ -10,11 +10,11 @@ function SideLink({ name, Icon, active, onMenuItemClick }) {
       >
         <div className="inline-block">
           <div
-            className={`flex items-center group-hover:bg-gray-light group-hover:font-bold rounded-full pl-3 pr-8 py-3
+            className={`flex items-center group-hover:bg-gray-light group-hover:font-bold rounded-full pl-3 pr-8 py-3 
           ${isActive ? "font-bold" : ""}
           `}
           >
-              <Icon />
+            <Icon />
             <span className="ml-4">{name}</span>
           </div>
         </div>
